@@ -45,7 +45,7 @@ The size modifier in the filename (`S`, `M`, `L`, `XL`) is a rough indication fo
 
 For instance, the screenshot below compares `Q4_K_S` (left) against `Q4_K_M` (right); we'll discuss the meaning of `K` below. The parameter `blk.0.attn_v.weight` was quantized to `Q5` in the `S` version (left) and `Q6` in the `M` version (right).
 
-<img src="images/size-diff.png" alt="naming-convention" width="400">
+<img src="images/size-diff.png" alt="naming-convention" height="400">
 
 
 ---
