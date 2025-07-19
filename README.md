@@ -7,6 +7,7 @@
 - [K-Quants](k-quants.md)
 - [I-Quants](i-quants.md)
 - [Importance Matrix](importance-matrix.md)
+- [Naming Convention](naming.md)
 
 ### Practical Guides
 - [Commands](commands.md)
