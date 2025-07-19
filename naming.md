@@ -4,7 +4,7 @@
 
 GGUF quantization algorithms follow a systematic(ish) naming convention that helps identify the quantization methodology, as well as gauge the compression rate. Here are some examples:
 
-<img src="images/names.png" alt="naming-convention" width="300">
+<img src="images/names.png" alt="naming-convention" width="400">
 
 ## 1. The quantization algorithm version
 - [Legacy quants](legacy-quants.md): End in `_0` or `_1` (e.g., `Q4_0`, `Q4_1`)
@@ -45,7 +45,7 @@ The size modifier in the filename (`S`, `M`, `L`, `XL`) is a rough indication fo
 
 For instance, the screenshot below compares `Q4_K_S` (left) against `Q4_K_M` (right); we'll discuss the meaning of `K` below. The parameter `blk.0.attn_v.weight` was quantized to `Q5` in the `S` version (left) and `Q6` in the `M` version (right).
 
-<img src="images/size-diff.png" alt="naming-convention" height="400">
+<img src="images/size-diff.png" alt="naming-convention" height="600">
 
 
 ---
